@@ -8,23 +8,95 @@
     <title>my reps again</title>
 </head>
 
-<body>
+<body style=" justify-content: center;align-items: center; display: flex;">
     <div>
-        <form>
-            <h3>Form</h3>
-            <fieldset title="Name">
-                <h5>Name</h5>
-                <label>first name</label>
-                <input type="text" />
-                <label>first name</label>
-                <input type="text" />
-            </fieldset>
-            <fieldset title="Name">
-                <h5>Other Question</h5>
-                <label>Drink</label>
-                <input type="radio">
-            </fieldset>
-        </form>
+        <fieldset style="min-width:450px ;">
+            <form>
+                <h1>Basics of HTML Form</h1>
+                <h3>Name</h3>
+                <fieldset>
+                    <div>
+
+                        <div>first name</div>
+                        <input type="text" />
+
+                    </div>
+                    <div>
+
+                        <div>last name</div>
+                        <input type="text" />
+
+                    </div>
+                </fieldset>
+                <h3>Other Question</h3>
+                <fieldset>
+
+
+                    <h5>Choose a Drink:</h5>
+
+                    <div>
+
+                        <input name="drink" type="radio" value="coffee" />
+                        <label>coffee</label>
+
+                    </div>
+                    <div>
+
+                        <input name="drink" type="radio" value="tea" />
+                        <label>tea</label>
+
+                    </div>
+                    <div>
+
+                        <input name="drink" type="radio" value="hot chocolate" />
+                        <label>hot chocolate</label>
+
+                    </div>
+                    <h5>ice cream you like:</h5>
+
+                    <div>
+
+                        <input name="ice-cream" type="checkbox" value="Chocolate" />
+                        <label>Chocolate </label>
+
+                    </div>
+                    <div>
+
+                        <input name="ice-cream" type="checkbox" value="Chocolate Pudding" />
+                        <label>Chocolate Pudding</label>
+
+                    </div>
+                    <div>
+
+                        <input name="ice-cream" type="checkbox" value="Vanilla" />
+                        <label>Vanilla</label>
+
+                    </div>
+                    <div>
+
+                        <input name="ice-cream" type="checkbox" value="Strawberry" />
+                        <label>Strawberry</label>
+
+                    </div>
+                    <h5>Select a school:</h5>
+                    <select>
+                        <option>School 1</option>
+                        <option>School 2</option>
+                    </select>
+                    <h5>Please add comment:</h5>
+                    <textarea>
+
+                </textarea>
+
+                </fieldset>
+                <div style="margin:10px ;">
+                    <button type="submit">
+                        Submit Info
+                    </button>
+                </div>
+
+            </form>
+        </fieldset>
     </div>
 
 </body>
