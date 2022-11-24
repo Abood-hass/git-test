@@ -7,92 +7,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my reps again</title>
 </head>
+<!-- This Form should be ask some questions about favorite things
+i wish this documentaion be enough to understand this project -->
 
 <body style=" justify-content: center;align-items: center; display: flex;">
     <div>
+        <!-- Main Container -->
         <fieldset style="min-width:450px ;">
+            <!-- Form -->
             <form>
                 <h1>Basics of HTML Form</h1>
+                <!-- First group of questions -->
+
                 <fieldset>
                     <legend>
                         <h3>Name</h3>
                     </legend>
                     <div>
-
-                        <div>first name</div>
+                        <!-- First Name field -->
+                        <div>First name</div>
                         <input type="text" />
 
                     </div>
                     <div>
-
-                        <div>last name</div>
+                        <!-- Last Name field -->
+                        <div>Last name</div>
                         <input type="text" />
 
                     </div>
                 </fieldset>
+                <!-- Second group of questions -->
+
                 <fieldset>
 
                     <legend>
                         <h3>Other Question</h3>
                     </legend>
-
+                    <!-- Drink choose question (one of multiSelecte) -->
                     <h5>Choose a Drink:</h5>
 
                     <div>
-
+                        <!-- coffee Selection -->
                         <input name="drink" type="radio" value="coffee" />
                         <label>coffee</label>
 
                     </div>
                     <div>
-
+                        <!-- tea Selection -->
                         <input name="drink" type="radio" value="tea" />
                         <label>tea</label>
 
                     </div>
                     <div>
-
+                        <!-- hot chocolate Selection -->
                         <input name="drink" type="radio" value="hot chocolate" />
                         <label>hot chocolate</label>
 
                     </div>
+
+                    <!-- IceCream choose question (Multiple selection) -->
+
                     <h5>Ice cream you like:</h5>
 
                     <div>
-
+                        <!-- normal chocolate Selection -->
                         <input name="ice-cream" type="checkbox" value="Chocolate" />
                         <label>Chocolate </label>
 
                     </div>
                     <div>
+                        <!-- Chocolate Pudding Selection -->
 
                         <input name="ice-cream" type="checkbox" value="Chocolate Pudding" />
                         <label>Chocolate Pudding</label>
 
                     </div>
                     <div>
+                        <!-- Vanilla Selection -->
 
                         <input name="ice-cream" type="checkbox" value="Vanilla" />
                         <label>Vanilla</label>
 
                     </div>
                     <div>
-
+                        <!-- Strawberry Selection -->
                         <input name="ice-cream" type="checkbox" value="Strawberry" />
                         <label>Strawberry</label>
 
                     </div>
+                    <!-- School question -->
                     <h5>Select a school:</h5>
                     <select>
+                        <!-- School 1 Selection -->
                         <option>School 1</option>
+                        <!-- School 2 Selection -->
                         <option>School 2</option>
                     </select>
+                    <!-- Comment Feild -->
                     <h5>Please add comment:</h5>
                     <textarea style="width: 200px ;height:70px ;">
 
                 </textarea>
 
                 </fieldset>
+                <!-- Submit Button -->
                 <div style="margin:10px ;">
                     <button type="submit">
                         Submit Info
